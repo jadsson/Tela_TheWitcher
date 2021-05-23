@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+}
+h1, h2, h3, h4{
+    font-weight: 400;
+}
+#corpo {
+    color: #fff;
+    min-height: 100vh;
+    background: linear-gradient(to top, black, rgb(61, 61, 61), black);
+}
+#info_superiores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 40px 200px;
+}
+/* ----------------- MENU SUPERIOR ---------------- */
+/* superior esquerda */
+#info_superior_esquerda{
+    display: flex;
+    align-items: center;
+}
+#info_superior_esquerda li{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#info_superior_esquerda img{
+    width: 30px;
+    margin-left: 4px;
+}
+
+/* superior meio */
+#info_superior_meio {
+    display: flex;
+    align-items: center;
+}
+#info_superior_meio h1{
+    text-align: center;
+    font-size: 30px;
+}
+#titulo_com_bt_info_superior_meio{
+    display: flex;
+    align-items: center;
+}
+#criacao_bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    font-size: 15px;
+    color: rgb(114, 107, 90);
+}
+#criacao_bottom p{
+    font-weight: 600;
+}
+#criacao_bottom li{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.bt_meio{
+    margin: 10px 15px 0px 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.bt_meio:hover{
+    color: #fff;
+}
+
+/* superior direita */
+#info_superior_direita{
+    display: flex;
+    align-items: center;
+}
+#info_superior_direita li{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    font-size: 20px;
+}
+#info_superior_direita span {
+    font-size: 30px;
+    margin: 0 10px;
+}
+#barra_de_level{
+    width: 150px;
+    height: 15px;
+    margin-top: 20px;
+    border: 2px solid rgb(95, 88, 72);
+}
+#preenchimento_level{
+    background: #fff;
+    width: 42%;
+    height: 100%;
+    border-radius: 0 4px 4px 0px;
+}
+#bt_sair{
+    padding: 4px 18px;
+    border: 2px solid rgb(95, 88, 72);
+    font-weight: 550;
+    font-size: 32px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#bt_sair:hover{
+    background: rgb(26, 24, 19);
+}
+#valor_level {
+    display: flex;
+    justify-content: flex-end;
+}
+/*----------------- CORPO DA PÁGINA -------------*/
+/* corpo esquerda */
+#corpo_da_pagina {
+    display: flex;
+    justify-content: center;
+}
+#filtros_ativos{
+    font-size: 16px;
+}
+#filtros_ativos span{
+    color: rgb(163, 152, 125);
+}
+#corpo_pai_esquerda {
+    border: 2px solid rgb(114, 107, 90);
+    height: fit-content;
+    height: -moz-fit-content;
+    width: 550px;
+}
+
+#corpo_esquerda .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(184, 170, 138);
+    border: 2px solid rgb(56, 53, 47);
+    margin: 1px;
+    background: rgb(15, 14, 11);
+    font-size: 20px;
+}
+#corpo_esquerda .content:hover {
+    background: rgb(7, 6, 5);
+}
+/* corpo meio */
+#centro_corpo{
+    margin: 0px 20px;
+    max-width: 550px;
+}
+#img_principal_meio{
+    width: 90px;
+    height: 90px;
+    background: rgba(0, 128, 0, 0.219);
+    border: 2px solid rgba(0, 128, 0, 0.555);
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#img_principal_meio img{
+    width: 100%;
+}
+#conteudo_top_centro{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 102px;
+}
+#parte_superior_centro {
+    border: 2px solid rgb(114, 107, 90);
+    border-bottom: transparent;
+    padding: 20px 20px 0 20px;
+}
+#conteudo_top_centro h4{
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    color: rgb(160, 139, 88);
+    font-weight: 600;
+    font-size: 18px;
+}
+.img_itens_necessarios{
+    display: flex;
+    justify-content: center;
+}
+.img_itens_necessarios div{
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    background: rgba(56, 53, 47, 0.527);
+    margin-top: 20px;
+    border: 2px solid rgb(114, 107, 90);
+}
+.img_itens_necessarios img{
+    width: 100%;
+}
+#texto_vermelho{
+    color: rgb(194, 3, 3);
+    font-size: 18px;
+}
+#texto_com_fundo_branco{
+    background: rgb(207, 205, 184);
+    border: 3px solid gray;
+    text-align: center;
+    color: rgb(27, 22, 11);
+    font-weight: 600;
+    width: 92%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 18px;
+}
+#info_criar_equipamento {
+    border: 4px solid rgb(114, 107, 90);
+    padding: 15px;
+    margin-top: 20px;
+    font-size: .9em;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 16px;
+}
+#info_criar_equipamento h3{
+    font-size: 15px;
+    color: rgb(160, 139, 88);
+}
+
+/* conteúdo fundo meio */
+#icones_bottom_meio{
+    display: flex;
+}
+.content_bottom_meio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 90px 20px 0px 20px;
+    text-align: center;
+}
+.content_bottom_meio div{
+    margin-left: 5px;
+}
+.content_bottom_meio p{
+    color: rgb(160, 139, 88);
+    font-size: 16px;
+}
+.content_bottom_meio_icone{
+    padding: 6px 12px;
+    background: rgb(26, 24, 19);
+    box-shadow: 0px 0px 0px 2px rgb(26,24,19);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+}
+.content_bottom_meio img{
+    padding: 5px 10px;
+    background: rgb(100, 88, 60);
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px rgb(100,88,60);
+}
+
+/* conteúdo corpo direita */
+#conteudo_corpo_direita{
+    border: 2px solid rgb(114, 107, 90);
+    width: 500px;
+    border-bottom: transparent;
+    padding: 7px;
+}
+#titulo_direita{
+    background: linear-gradient( to right, rgba(0, 119, 0, 0.733), rgba(1, 26, 1, 0.658));
+    border: 2px solid rgba(1, 204, 1, 0.562);
+    padding: 5px;
+}
+#texto_amarelo_titulo_direito{
+    color: rgb(187, 152, 70);
+    margin: 10px 0;
+}
+.linha_corpo_direita {
+    display: flex;
+    font-size: 18px;
+}
+.direita_porcent{
+    width: fit-content;
+    color: #ddd;
+}
+.direita_parag {
+    margin: 0 10px;
+    width: fit-content;
+    color: rgba(238, 238, 204, 0.85);
+}
+.direita_percent_verde{
+    color: rgba(1, 204, 1, 0.801);
+    font-weight: 500;
+    text-align: left;
+}
+#titulo_verde_direita{
+    color: rgba(0, 204, 1, 0.555);
+    margin-top: 5px;
+}
+#conteudo_final_direita{
+    font-size: 1em;
+    color: rgba(238, 238, 204, 0.85);
+}
+#conteudo_final_direita p {
+    font-size: 18px;
+}
+#p_tab_final_direita{
+    margin-left: 55px;
+}
+#texto_vermelho_direita{
+    color: rgb(194, 3, 3);
+}
